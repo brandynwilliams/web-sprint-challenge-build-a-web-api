@@ -147,7 +147,20 @@ We have provided test data for all the resources.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+Node.js allows the client and server to use the same language. This makes it easier to share information between the two. It also has access to npm which allows for more functionality. Express is a web application frame work, it is useful because it allows middlewares that expand the functionality of express. 
+
+
 1. Understand and explain the use of Middleware.
+Middlewares are functions that add functionality and or features to express.
+
+
 1. The basic principles of the REST architectural style.
+REST is a client server architecture. It is stateless, this means the communication between the client and the server always contains all the information needed to perform the request. REST provides a uniform interface between components. REST is a layered system and is cacheable, the client and the server and any intermediary components can all cache resources in order to improve performance.
+
+
 1. Understand and explain the use of Express Routers.
+Routing refers to how an application's endpoints (URIs) respond to client requests. They are put into end points in order to group similar router URL's. Express routers are important for code organization / maintainability and scoping middleware.
+
+
 1. Describe tooling used to manually test the correctness of an API.
+There are bunch of tools to manually test the correctness of an API such as Nodemon, Postman, Http pie and ESLint. Nodemon allows you to test the server without having to turn it and on and off with npm start each time. Postman allows us to check end points and CRUD functionality. HTTP Pie is very similar to Postman but also has an added terminal feature in VS Code. ESLint is able to find syntax errors, saving devs loads of time. 
